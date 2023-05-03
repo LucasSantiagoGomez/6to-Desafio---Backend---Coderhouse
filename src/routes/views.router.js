@@ -35,7 +35,7 @@ router.get("/restore", (req, res) => {
   });
 });
 
-router.get("/",checkLogin, async (req, res) => {
+router.get("/home",checkLogin, async (req, res) => {
   const options = {
     query: {},
     pagination: {
